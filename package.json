@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "e2e:dev": "playwright test --project=development",
+    "e2e:staging": "playwright test --project=staging"
   },
   "dependencies": {
     "@types/node": "18.14.2",
